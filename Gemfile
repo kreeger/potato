@@ -7,6 +7,8 @@ gem 'rabl'
 gem 'haml-rails'
 gem 'devise'
 
+gem 'heroku'
+
 group :assets do
   gem 'sass-rails',   '~> 3.2.3'
   gem 'coffee-rails', '~> 3.2.1'
@@ -18,5 +20,6 @@ group :test do
 end
 
 group :development, :test do
+  gem 'thin'
   gem 'debugger'
 end
