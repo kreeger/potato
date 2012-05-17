@@ -20,6 +20,6 @@ group :test do
 end
 
 group :development, :test do
-  gem 'thin'
+  # gem 'thin'
   gem 'debugger'
 end
