@@ -6,4 +6,6 @@ class User < ActiveRecord::Base
 
   # Setup accessible (or protected) attributes for your model
   attr_accessible :email, :username, :password, :password_confirmation, :remember_me
+
+  has_many :created_tasks, class_name: 'Task', foreign_key: :created_by_id
 end
