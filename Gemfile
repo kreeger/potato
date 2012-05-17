@@ -2,6 +2,7 @@ source 'https://rubygems.org'
 
 gem 'rails', '3.2.3'
 gem 'mysql2'
+gem 'foreigner'
 gem 'jquery-rails'
 gem 'rabl'
 gem 'haml-rails'
@@ -20,6 +21,5 @@ group :test do
 end
 
 group :development, :test do
-  # gem 'thin'
   gem 'debugger'
 end
